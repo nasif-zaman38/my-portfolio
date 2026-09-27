@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasif Uz Zaman - Portfolio</title>
+
+    <!--
+      - favicon
+    -->
+
+    <link rel="icon" href="data:,">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+            <figure class="avatar-box">
+                <img src="image/nasif-preview1.png" alt="Nasif Uz Zaman" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Nasif Uz Zaman">Nasif Uz Zaman</h1>
+
+                <p class="title">Aspiring Software Engineer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a href="mailto:nasif.mbstu.cse@gmail.com" class="contact-link">nasif.mbstu.cse@gmail.com</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+
+                        <a href="tel:+8801993582377" class="contact-link">+880 1993-582377</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">University</p>
+
+                        <p class="contact-link">Mawlana Bhashani Science and Technology University</p>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+
+                        <address>Bangladesh</address>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://github.com/nasif-zaman38" target="_blank" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/nasif-uz-zaman-30139330a/" target="_blank" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    I'm recently graduated in Computer Science and Engineering at Mawlana Bhashani Science and Technology University (MBSTU),
+                    passionate about building practical, well-engineered software - from backend systems to mobile and
+                    AI-powered applications.
+                </p>
+
+                <p>
+                    I enjoy working across the stack - designing REST APIs with Spring Boot, building e-commerce systems with
+                    ASP.NET Core, and experimenting with AI/ML integrations such as image-based food recognition. I'm also an
+                    active problem solver, having solved 250+ problems on platforms like LeetCode, Codeforces and HackerRank.
+                </p>
+            </section>
+
+
+            <!--
+              - service
+            -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">What I do</h3>
+
+                <ul class="service-list">
+
+                    <li class="service-item">
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Backend Development</h4>
+
+                            <p class="service-item-text">
+                                Building REST APIs and services with Java, Spring Boot and PostgreSQL.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Web Development</h4>
+
+                            <p class="service-item-text">
+                                Full-stack web apps using ASP.NET Core MVC, HTML, CSS and JavaScript.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Mobile Apps</h4>
+
+                            <p class="service-item-text">
+                                Android apps built with Java and Flutter, integrated with Firebase.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">AI Integration</h4>
+
+                            <p class="service-item-text">
+                                Applying OpenAI APIs and Python for smart, data-driven features.
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <!--
+              - achievements
+            -->
+
+            <section class="testimonials">
+
+                <h3 class="h3 testimonials-title">Achievements</h3>
+
+                <ul class="testimonials-list has-scrollbar">
+
+                    <li class="testimonials-item">
+                        <div class="content-card">
+                            <h4 class="h4 testimonials-item-title">Programming Contests</h4>
+                            <div class="testimonials-text">
+                                <ul class="achievement-list">
+                                    <li>4th Runner-Up, Intra Department Programming Contest 2021 (Junior)</li>
+                                    <li>8th Rank, CSE MBSTU Eid Vacation Contest 2021 (Junior)</li>
+                                    <li>6th Runner-Up, Intra Department Programming Contest 2022</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+                        <div class="content-card">
+                            <h4 class="h4 testimonials-item-title">Certifications</h4>
+                            <div class="testimonials-text">
+                                <ul class="achievement-list">
+                                    <li>Learnathon 3.0 by Geeky Solutions</li>
+                                    <li>Digital Skills for Students (EDGE Program) under ICT Division</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+                        <div class="content-card">
+                            <h4 class="h4 testimonials-item-title">Problem Solving</h4>
+                            <div class="testimonials-text">
+                                <p>
+                                    Solved 250+ problems across LeetCode, Codeforces, HackerRank, BeeCrowd and UVA.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">BSc in Computer Science and Engineering</h4>
+
+                        <span>Feb 2020 — June 2026</span>
+
+                        <p class="timeline-text">
+                            Mawlana Bhashani Science and Technology University (MBSTU)
+                        </p>
+
+                    </li>
+
+                </ol>
+
+
+            </section>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Tools &amp; Knowledge</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Tools</h4>
+
+                        <p class="timeline-text">
+                            Postman, Docker, GitHub Copilot, Codex, VS Code, IntelliJ IDEA
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Knowledge</h4>
+
+                        <p class="timeline-text">
+                            Object Oriented Programming, REST API, Database Management Systems, Data Structures and
+                            Algorithms, Problem Solving
+                        </p>
+
+                    </li>
+
+                </ol>
+
+            </section>
+
+            <section class="skill">
+
+                <h3 class="h3 skills-title">Technical Skills</h3>
+
+                <ul class="skills-list content-card">
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Java / Spring Boot</h5>
+                            <data value="85">85%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 85%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">C / C++</h5>
+                            <data value="85">85%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 85%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">SQL / PostgreSQL</h5>
+                            <data value="80">80%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">HTML / CSS / JavaScript</h5>
+                            <data value="75">75%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 75%;"></div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="portfolio" data-page="portfolio">
+
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="project-list">
+
+                    <li class="project-item active">
+                        <a href="#">
+                            <div class="project-content">
+                                <h3 class="project-title">AI-Powered Personalized Food &amp; Health Assistant</h3>
+                                <p class="project-category">Java, Spring Boot, OpenAI API, PostgreSQL, Python, Flutter</p>
+                                <p class="project-desc">
+                                    AI-based system that detects food from images and provides personalized calorie, nutrition and
+                                    health recommendations.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="project-item active">
+                        <a href="#">
+                            <div class="project-content">
+                                <h3 class="project-title">EcommerceWeb - A Modern E-Commerce Platform</h3>
+                                <p class="project-category">ASP.NET Core MVC, PostgreSQL, HTML, CSS, JavaScript</p>
+                                <p class="project-desc">
+                                    Full-featured system with product/category management, role-based access control, shopping
+                                    cart, Stripe payments, authentication and order tracking.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="project-item active">
+                        <a href="#">
+                            <div class="project-content">
+                                <h3 class="project-title">ChatBot Application</h3>
+                                <p class="project-category">Java, Flutter, Firebase</p>
+                                <p class="project-desc">
+                                    Java OOP based Android app for instant messaging, real-time sync, multimedia and group chat
+                                    features.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="contact-form">
+
+                <h3 class="h3 form-title">Contact Form</h3>
+
+                <form action="#" class="form" data-form>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+
+                </form>
+
+            </section>
+
+        </article>
+
+    </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
